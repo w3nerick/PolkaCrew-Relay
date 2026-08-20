@@ -1,0 +1,8 @@
+.git
+.github
+__pycache__
+*.pyc
+.DS_Store
+README.md
+rebuild-polkacrew.sh
+verify-relay.sh

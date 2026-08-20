@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: polkacrew-relay
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: POLKACREW_ALLOWED_ORIGINS
+        value: https://polkacrew.dev-dot.li
+      - key: POLKACREW_MAX_POSTS_PER_SECOND
+        value: "120"

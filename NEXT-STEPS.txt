@@ -1,0 +1,9 @@
+1) Crea repo GitHub: PolkaCrew-Relay
+2) Sube el contenido de esta carpeta
+3) Render → New → Blueprint → conecta PolkaCrew-Relay
+4) Copia URL: https://polkacrew-relay-XXXX.onrender.com
+5) ./verify-relay.sh https://polkacrew-relay-XXXX.onrender.com
+6) ./rebuild-polkacrew.sh /ruta/a/PolkaCrew https://polkacrew-relay-XXXX.onrender.com
+7) Desde PolkaCrew:
+   pad ./dist polkacrew.dot --env devnet --mnemonic "$MNEMONIC"
+8) Prueba CREATE/JOIN desde dos navegadores.
