@@ -8,6 +8,6 @@ services:
     autoDeployTrigger: commit
     envVars:
       - key: POLKACREW_ALLOWED_ORIGINS
-        value: https://polkacrew.dev-dot.li
+        value: "*"
       - key: POLKACREW_MAX_POSTS_PER_SECOND
         value: "120"
